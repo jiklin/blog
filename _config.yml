@@ -72,7 +72,8 @@ theme: next
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: git@github.com:jiklin/jiklin.github.io.git
-  branch: master
+  repository: 
+    github: git@github.com:jiklin/jiklin.github.io.git,master
+    gitcafe: git@gitcafe.com:geer/geer.git,gitcafe-pages
 
 port: 10
